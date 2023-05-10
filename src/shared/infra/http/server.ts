@@ -1,5 +1,7 @@
 import app from "./app";
-import AppDataSource from "./data-source";
+import AppDataSource from "../typeorm/data-source";
+import serverHttp from './app';
+
 
 (async () => {
 
